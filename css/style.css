@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+nav {
+	position: sticky;
+	z-index: 7;
+	top: 0;
+	line-height: 80px;
+	background: #ffffffed;
+}
+
+nav ul {
+	display: flex;
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+	justify-content: space-between;
+	list-style: none;
+}
+
+nav li {
+	width: 100%;
+}
+
+nav a {
+	display: block;
+	text-align: center;
+	color: #89BEE8;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+header {
+	min-height: calc(100vh - 80px);
+	padding-top: 20px;
+	padding-bottom: 55px;
+	background: url(../img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	color: #ffffff;
+	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+	text-align: center;
+}
+
+header h1 {
+    margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 72px;
+}
+
+.logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	float: left;
+	width: 250px;
+	height: 80px;
+	text-indent: -9999px;
+}
+
+.kontrast {
+	background-image: url(../img/kontrast.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	float: right;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+}
+.ofertaP {
+    display: flex;
+    position: relative;
+	width: 100%;
+    height: 340px;
+}
+
+.oferta {
+    display: block;
+	width: 32%;
+    height: 90%;
+    float: left;
+	padding-top: 20px;
+	padding-bottom: 55px;
+    background-color: #ffffffed;
+    box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
+	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+	text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.oferta {
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+}
+
+.oferta {
+	position: relative;
+	transition: transform .5s ease;
+}
+
+.oferta:hover {
+	transform: translateY(-10px);
+}
+
+.oferta_obraz {
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: 27%;
+	text-align: center;
+}
+
+.oferta_opis {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffffed;
+	background-color: #89BEE8;
+	border-radius: 5px;
+}
+
+.zarzadP {
+    display: flex;
+    position: relative;
+	width: 100%;
+    height: 380px;
+}
+
+.zarzad {
+    display: block;
+	width: 32%;
+    height: 90%;
+    float: left;
+	padding-top: 20px;
+	padding-bottom: 55px;
+    background-color: #ffffffed;
+    box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
+	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+	text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.zarzad {
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+}
+
+.zarzad {
+	position: relative;
+	transition: transform .5s ease;
+}
+
+.zarzad:hover {
+	transform: translateY(-10px);
+}
+
+.zarzad_obraz {
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: 32%;
+	text-align: center;
+}
+
+.zarzad_opis {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffffed;
+	background-color: #89BEE8ed;
+	border-radius: 5px;
+}
+
+section {
+	padding: 50px 0;
+	text-align: justify;
+}
+
+section h2 {
+	text-align: center;
+    margin-bottom: 30px;
+}
+
+section:nth-of-type(even) {
+    background: #89BEE8ad;
+    color: #ffffffed;
+}
+
+.kontakt {
+	padding: 50px 0;
+	text-align: justify;
+	background: url(../img/tlo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kontakt_obraz {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#formularz {
+	width: 50%;
+	max-width: 100%;
+	padding: 40px 40px;
+    background-color: #ffffffed;
+	color: #89BEE8;
+	border-radius: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
+}
+	  
+#formularz .poleTekstowe {
+	position: relative;
+	margin: 28px 0;
+}
+
+#formularz input, #formularz textarea {
+	padding: 10px 5px;
+	width: 100%;
+	font-size: 20px;
+	background: #ffffffed;
+	border: 2px solid #89BEE8;
+	box-sizing: border-box;
+	border-radius: 5px;
+	resize: none;
+	outline: none;
+}
+
+#formularz label {
+	top: -35px;
+	position: absolute;
+	bottom: 0px;
+	left: 1%;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#formularz input[type="submit"] {
+	border: none;
+	background-image: none;
+	background-color: #89BEE8;
+	color: #ffffffed;
+	border-radius: 5px;
+}
+
+#formularz input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #60BEF8;
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+	color: #ffffffed;
+	background-color: #89BEE8;
+}
+
+@media (max-width: 850px) and (min-width: 800px) {
+.oferta_obraz {
+	left: 23%;
+}
+.zarzad_obraz {
+    left: 29%;
+}}
+
+@media (max-width: 800px) and (min-width: 750px) {
+.oferta_obraz {
+	left: 20%;
+}
+.zarzad_obraz {
+    left: 26%;
+}}
+
+@media (max-width: 750px) and (min-width: 700px) {
+.oferta_obraz {
+	left: 17%;
+}
+.zarzad_obraz {
+	left: 23%;
+}}
