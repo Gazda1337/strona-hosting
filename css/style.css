@@ -19,8 +19,8 @@ nav {
 nav ul {
 	display: flex;
 	width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	justify-content: space-between;
 	list-style: none;
 }
@@ -49,17 +49,17 @@ header {
 	padding-top: 20px;
 	padding-bottom: 55px;
 	background: url(../img/tlo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+ 	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 	color: #ffffff;
 	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
 	text-align: center;
 }
 
 header h1 {
-    margin-top: 80px;
+	margin-top: 80px;
 	margin-bottom: 80px;
 	font-size: 72px;
 }
@@ -86,26 +86,26 @@ header h1 {
 	text-indent: -9999px;
 }
 .ofertaP {
-    display: flex;
-    position: relative;
+	display: flex;
+	position: relative;
 	width: 100%;
-    height: 340px;
+	height: 340px;
 }
 
 .oferta {
-    display: block;
+	display: block;
 	width: 32%;
-    height: 90%;
-    float: left;
+	height: 90%;
+	float: left;
 	padding-top: 20px;
 	padding-bottom: 55px;
-    background-color: #ffffffed;
-    box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
+	background-color: #ffffffed;
+	box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
 	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
 	text-align: center;
-    margin-right: 15px;
-    margin-left: 15px;
-    border-radius: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 5px;
 }
 
 .oferta {
@@ -144,26 +144,26 @@ header h1 {
 }
 
 .zarzadP {
-    display: flex;
-    position: relative;
+	display: flex;
+	position: relative;
 	width: 100%;
-    height: 380px;
+	height: 380px;
 }
 
 .zarzad {
-    display: block;
+	display: block;
 	width: 32%;
-    height: 90%;
-    float: left;
+	height: 90%;
+	float: left;
 	padding-top: 20px;
 	padding-bottom: 55px;
-    background-color: #ffffffed;
-    box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
+	background-color: #ffffffed;
+	box-shadow: 0px 10px 20px -2px rgba(0, 0, 0, .7);
 	text-shadow: 0 0 15px rgba(0, 0, 0, .3);
 	text-align: center;
-    margin-right: 15px;
-    margin-left: 15px;
-    border-radius: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 5px;
 }
 
 .zarzad {
@@ -208,35 +208,35 @@ section {
 
 section h2 {
 	text-align: center;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 section:nth-of-type(even) {
-    background: #89BEE8ad;
-    color: #ffffffed;
+	background: #89BEE8ad;
+	color: #ffffffed;
 }
 
 .kontakt {
 	padding: 50px 0;
 	text-align: justify;
 	background: url(../img/tlo2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .kontakt_obraz {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
 
 #formularz {
 	width: 50%;
 	max-width: 100%;
 	padding: 40px 40px;
-    background-color: #ffffffed;
+	background-color: #ffffffed;
 	color: #89BEE8;
 	border-radius: 25px;
 	text-align: center;
